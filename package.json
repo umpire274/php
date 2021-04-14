@@ -1,10 +1,10 @@
 {
-  "name": "theme-starter",
-  "title": "Starter Theme",
-  "displayName": "Starter Theme",
+  "name": "Ump274it-PHP",
+  "title": "PHP Theme",
+  "displayName": "PHP Colour theme",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "A great dark theme to start your own themes.",
+  "description": "A great dark theme to remeber the color of https://php.net .",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
