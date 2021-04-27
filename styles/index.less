@@ -31,9 +31,11 @@ background color.)
 .thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
   -webkit-filter: invert(100%);
 }
+
 img.content-dark {
   -webkit-filter: invert(100%);
 }
+
 img.content-light {
   -webkit-filter: invert(100%);
 }
@@ -44,12 +46,13 @@ img.content-light {
 
 #message-list .message-item-wrap .message-item-white-wrap {
   box-shadow: 0 0 0.5px rgba(255, 255, 255, 0.28),
-    0 1px 1.5px rgba(255, 255, 255, 0.08);
+  0 1px 1.5px rgba(255, 255, 255, 0.08);
 }
 
 .thread-list .list-item:not(.unread):not(.selected):not(.focused) {
   color: #aaa;
 }
+
 /*
  * Righe aggiunte da umpire274
  */
@@ -57,22 +60,99 @@ img.content-light {
   background-color: #2d2d2d;
   color: #aaa;
 }
+
 .outline-view .item .item-count-box.alt-count {
   color: #3a3a3a;
   background-color: #7b7b7b;
 }
+
 .thread-list .unread:not(.focused):not(.selected):not(.next-is-selected), .draft-list .unread:not(.focused):not(.selected):not(.next-is-selected) {
   color: #aaa;
 }
+
 .thread-list .unread:not(.focused):not(.selected) .snippet, .draft-list .unread:not(.focused):not(.selected) .snippet {
   color: #888;
 }
+
 #message-list .message-item-wrap .message-item-white-wrap {
   background-color: #fff;
 }
+
 .button-dropdown .primary-item,
 .button-dropdown .only-item,
 .button-dropdown .secondary-picker,
 .button-dropdown .secondary-items {
   background-color: #aaa;
+}
+
+.items-wrapper.scroll-region > .scroll-region-content > .scroll-region-content-inner > .list-item:not(.selected),
+.preferences-wrap .container-accounts .accounts-content .account-details {
+  background-color: #fff;
+}
+
+.preferences-wrap .container-accounts .accounts-content .account-details input,
+.preferences-wrap .container-accounts .accounts-content .account-details select,
+.preferences-wrap .container-accounts .accounts-content .account-details .btn,
+.preferences-wrap .container-accounts .accounts-content .account-details .scroll-region-content {
+  background-color: #b9b9b9;
+  color: #323232;
+}
+
+.notification .title,
+.notification .actions-wrapper {
+  color: #fff;
+}
+
+.preferences-wrap select {
+  background-color: #bdbdbd;
+}
+
+.preferences-wrap .platform-note {
+  background: #bdbdbd;
+  border-left: 3px solid #323232;
+}
+
+.preferences-wrap .platform-note:before {
+  color: #323232;
+}
+
+.btn {
+  color: #bdbdbd;
+}
+
+.preferences-wrap .container-preference-tabs .preferences-tabs .item.active {
+  background: #323232;
+}
+
+.preferences-wrap .container-preference-tabs .preferences-tabs .item.active .name {
+  color: #b7b7b7;
+}
+
+.preferences-wrap p {
+  color: #c1c1c1;
+}
+
+.btn.btn-emphasis {
+  color: #fff;
+}
+
+.preferences-wrap .container-appearance .appearance-mode-switch .appearance-mode img {
+  background-color: #afafaf;
+}
+
+.container-keymaps > section > p,
+.container-mail-rules > section > p {
+  color: #323232;
+}
+
+.btn img.content-mask {
+  background-color: #b7b7b7;
+}
+
+.thread-search-bar .tokenizing-contenteditable .layer-text {
+  color: #fff;
+}
+
+.thread-search-bar .tokenizing-contenteditable .layer-tokens {
+  color: #afafaf;
 }
